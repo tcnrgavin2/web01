@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin's Web</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Gavin's Web</h1>    
+            <p>介紹一下我家的貓主子們！</p>
+        </header>
+                
+        <div class="content">
+            <form>
+                <p><b>*為必填項目</b></p>
+
+                <table border="1">
+                    <caption>貓主子資料</caption>
+                    <tr>
+                        <th>主子名*</th>
+                        <td><input type="text" name="catName" required></td>
+                    </tr>
+                    <tr>
+                        <th>年齡*</th>
+                        <td>
+                            <select name="age">
+                                <option value="">請選擇</option>
+                                <option value="1">未滿1歲</option>
+                                <option value="2">1~5歲</option>
+                                <option value="3">6~10歲</option>
+                                <option value="4">10~15歲</option>
+                                <option value="5">15歲以上</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>性別*</th>
+                        <td>
+                            <input type="radio" name="gender" value="male">公
+                            <input type="radio" name="gender" value="female" checked>母
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>最愛的食物</th>
+                        <td>
+                            <input type="checkbox" value="魚">魚
+                            <input type="checkbox" value="肉">肉
+                            <input type="checkbox" value="飼料">飼料
+                            <input type="checkbox" value="其他">其他
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>照片</th>
+                        <td><input type="file"></td>
+                    </tr>
+                </table>
+
+                <table border="1">
+                    <caption>貓奴資料</caption>
+                    <tr>
+                        <th>奴才名*</th>
+                        <td><input type="text" name="name" required placeholder="咖啡">※可用暱稱</td>
+                    </tr>
+                    <tr>
+                        <th>E-MAIL*</th>
+                        <td><input type="email" required placeholder="sample@gmail.com">※請輸入半形文字</td>
+                    </tr>
+                    <tr>
+                        <th>留言</th>
+                        <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                    </tr>
+                </table>
+
+                <div class="btns">
+                    <input type="reset" value="清除重填">
+                    <input type="submit" value="送出">
+                </div>
+            </form>
+        </div>
+    
+        <footer>
+            <p><small>Copyright © Gavin's Web All Rights Reserved.</small></p>
+        </footer>
+    </main>
+</body>
+</html>

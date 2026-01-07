@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body{    
+    /*background-color: #fbf9cc;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x; */
+
+    background: #fbf9cc url(../images/bg.png) repeat-x;
+
+    /* background-position: right top; */
+    /* background-position: 50px 50px; */
+    /* background-position: 20% 10%; */
+
+    /* background-position: 0 100px; */
+    /* background-position: 100px; */
+}
+
+
+/*連結顏色設定*/
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    background-color: palevioletred;
+}
+
+a:active{
+    color: black;
+} */
+
+a{
+    color: red;
+}
+
+
+/*頁首,導覽,頁尾的共通設定*/
+header, nav, footer{
+    text-align: center;
+}
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1{
+    color: white;
+    background-color: #59a986;
+    width: 300px;
+    border: 5px solid #95dbbd;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    font-size: 300%;
+    line-height: 1;
+}
+
+
+/*次標題設定*/
+
+
+/*小標題設定*/
+
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+
+
